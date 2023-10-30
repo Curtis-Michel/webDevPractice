@@ -1,0 +1,30 @@
+/*
+
+Task:
+
+1. Create a new Map using the Map constructor and save 
+
+it to a const called 'dinnerGuests'.
+
+2. Use the set() method to add three dream dinner guests 
+
+to your Map.
+
+3. Log out one or more of the guests using the 
+
+get() method.
+
+*/
+
+const dinnerGuests = new Map()
+
+
+dinnerGuests.set(3, 'A therapist Amanda trusts')
+
+dinnerGuests.set(1, 'Amanda when she likes me')
+
+dinnerGuests.set(2, 'My kids')
+
+
+console.log(dinnerGuests.get(1))
+
